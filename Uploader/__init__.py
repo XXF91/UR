@@ -51,14 +51,14 @@ for imp in ["TG_BOT_TOKEN", "APP_ID", "API_HASH", "OWNER_ID", "AUTH_CHANNEL"]:
         exit()
 
 # The Telegram API things
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", "12345"))
-API_HASH = os.environ.get("API_HASH")
-OWNER_ID = int(os.environ.get("OWNER_ID", "539295917"))
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7029383019:AAGmgfEwT17E-w9wkbhHAiJF1aHrEKLxMfk")
+APP_ID = int(os.environ.get("APP_ID", "13384432"))
+API_HASH = os.environ.get("API_HASH","ea9db4503ed7088b788e06dfd818e00e")
+OWNER_ID = int(os.environ.get("OWNER_ID", "6169288210"))
 
 # Get these values from my.telegram.org
 # to store the channel ID who are authorized to use the bot
-AUTH_CHANNEL = [int(x) for x in os.environ.get("AUTH_CHANNEL", "539295917").split()]
+AUTH_CHANNEL = [int(x) for x in os.environ.get("AUTH_CHANNEL", "-1002205938557").split()]
 
 # the download location, where the HTTP Server runs
 DOWNLOAD_LOCATION = "./DOWNLOADS"
